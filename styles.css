@@ -1,0 +1,72 @@
+* {
+    font-family: "Titillium Web", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(242, 248, 252, 0.479);
+    margin: 0 1.875rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1.25rem;
+    height: 400px;
+}
+
+.image-div,
+.about-us-card {
+    width: 50%;
+}
+
+.image-div {
+    background-color: rgb(230, 230, 116);
+    border-radius: 8px;
+}
+
+.about-us-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+   
+}
+
+.about-us-card ul {
+    background-color: rgba(206, 207, 207, 0.514);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-card li {
+    text-align: center;
+    padding: 1em 5em;
+}
+
+.about-us-card li:hover {
+    background-color: whitesmoke;
+    border: 2px solid rgba(109, 128, 128, 0.514);
+}
+
+.about-us-para {
+    padding: 1.25rem 1.125rem;
+   
+}
