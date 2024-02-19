@@ -7,7 +7,7 @@
 
 .container {
     background-color: rgba(242, 248, 252, 0.479);
-    margin: 0 1.875rem;
+    margin: 0 1rem;
 }
 
 header {
@@ -25,7 +25,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-    gap: 1.25rem;
+    gap: 1rem;
     height: 400px;
 }
 
@@ -35,8 +35,9 @@ h1 {
 }
 
 .image-div {
-    background-color: rgb(230, 230, 116);
+    background-image: linear-gradient(135deg, rgba(206, 207, 207, 0.514), rgb(116, 116, 114));
     border-radius: 8px;
+    background-size: cover;
 }
 
 .about-us-card {
@@ -57,8 +58,13 @@ h1 {
 }
 
 .about-us-card li {
+    display: inline;
     text-align: center;
-    padding: 1em 5em;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
 }
 
 .about-us-card li:hover {
@@ -69,4 +75,8 @@ h1 {
 .about-us-para {
     padding: 1.25rem 1.125rem;
    
+}
+
+.injected-para {
+   line-height: 2;
 }
