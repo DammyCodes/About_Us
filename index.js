@@ -5,7 +5,7 @@ const goals = document.getElementById('goals')
 
 
 const aboutUsPara = document.querySelector('.about-us-para')
-
+history.addEventListener('click', renderHistoryParagraph)
 vision.addEventListener('click', renderVisionParagraph)
 goals.addEventListener('click', renderGoalsParagraph)
 
